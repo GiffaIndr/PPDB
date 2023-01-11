@@ -1,0 +1,176 @@
+.home {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-size: cover;
+    background-position: right;
+    display: grid;
+    background-repeat: no-repeat;
+    align-items: center;
+  
+}
+.uc{
+    margin-right: 200px;
+}
+section {
+    padding: 40px 16%;
+    /* display: flex; */
+    justify-content:center;
+}
+
+footer{
+    background-color: rgba(0, 255, 0, 0.495);
+}
+.home-text {
+margin-top: 11px
+;
+}
+
+.home-text h1 {
+    font-size: 73px;
+    line-height: 1.11;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.home-text h4 {
+    font-size: 1.5rem;
+    line-height: 1.21;
+    font-weight: 700;
+
+  
+}
+p{
+    color: white;
+}
+/* ----------------------slider------------------------ */
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  @media (max-width: 770px) {
+    .about {
+        grid-template-columns: 1fr;
+    }
+    .about-img {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .contact {
+        text-align: center;
+    }
+    .contact h2 {
+        font-size: 1.4rem;
+    }
+    .social-media {
+        justify-content: center;
+        text-align: center;
+    }
+    .social-media p {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 750px) {
+     :root {
+        --big-font: 3.5rem;
+        --h2-font: 1.9rem;
+        --p-font: 0.9rem;
+    }
+}
+
+@media (max-width: 630px) {
+    section {
+        padding: 90px 9%;
+    }
+    header {
+        padding: 14px 4%;
+    }
+     :root {
+        --big-font: 3.5rem;
+        --h2-font: 1.9rem;
+        --p-font: 0.9rem;
+    }
+    .home-text h4 {
+        font-size: 1.2rem;
+    }
+    .count li {
+        margin-bottom: 20px;
+        font-size: 1rem;
+    }
+    .count span {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 1380px) {
+    header {
+        padding: 18px 2%;
+        transition: .2s;
+    }
+    section {
+        padding: 80px 2%;
+        transition: .3s;
+    }
+     :root {
+        --big-font: 4.7rem;
+        --h2-font: 2.5rem;
+    }
+    .home-text h4 {
+        font-size: 1.2rem;
+    }
+    .count span {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 1120px) {
+    header {
+        padding: 14px 2%;
+    }
+    .home {
+        height: 85vh;
+    }
+    #menu-icon {
+        display: block;
+    }
+    .sign-in {
+        display: none;
+    }
+    .navlist {
+        position: absolute;
+        top: -600px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--main-color);
+        text-align: left;
+        transition: all .35s ease;
+    }
+    .navlist a {
+        display: block;
+        padding: 1rem;
+        margin: 1.2rem;
+        border-left: 2px solid var(--text-color);
+    }
+    .navlist a:hover {
+        background: var(--text-color);
+        color: var(--secound-color);
+        border: none;
+    }
+    .navlist a::after {
+        display: none;
+    }
+    .navlist.active {
+        top: 100%;
+    }
+}

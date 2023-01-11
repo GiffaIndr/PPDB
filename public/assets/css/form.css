@@ -1,0 +1,51 @@
+.contact-form{
+    max-width: 800px;
+    margin-right: 500px;
+    margin-top: 50px;
+    float: right;
+}
+.contact-form h2{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    
+}
+.contact-form .text-box{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    width: calc(50% - 10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgb(255, 255, 255);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+.contact-form .text-box:first-child{
+    margin-right: 15px;
+}
+.contact-form .send-btn{
+    float: right;
+    background: rgb(222, 134, 2);
+    color: #fff;
+    border: 1px solid rgb(255, 255, 255);
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    transition: 0.3;
+    transition-property: background;
+}
+.contact-form .send-btn:hover{
+    background-color: white ;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
