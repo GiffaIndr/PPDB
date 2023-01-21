@@ -11,7 +11,7 @@
         @foreach ($takes as $take)
                     
                 @endforeach
-      <h1>{{ ucfirst(auth()->user()->role) }}</h1>
+      
     </div>
     <div class="col-12 col-md-12 col-lg-12">
         <div class="card shadow p-3">
